@@ -1,0 +1,130 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+nav{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding:30px ;
+    position: fixed;
+   
+    width: 100%;
+    margin-bottom: 30px ;
+    opacity: 0.8;
+    
+}
+
+li,h1,ul{
+    display: inline;
+}
+
+
+ul{
+    color: gray;
+    margin-left:  55%;
+    
+}
+
+li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+input{
+    width: 60%;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.search{
+    padding: 50px;
+    text-align: center;
+    
+}
+
+.img{
+    text-align: center;
+    padding: 20px;
+}
+
+.home{
+    text-align: center;
+    margin-top: 20px;
+}
+ 
+
+.about{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.desc{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bra{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.com{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pro{
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+}
+
+.box{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 220px;
+    padding-bottom: 40px;
+    margin : 20px;
+}
+
+.box:hover{
+    background-color: black;
+    color: white;
+}
+
+.product{
+    text-align: center;
+}
+
+.contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    margin-top: 30px;
+   
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(111, 107, 107);
+}
+
+.link:hover{
+    color: white;
+    cursor: pointer;
+}
